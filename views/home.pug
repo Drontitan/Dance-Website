@@ -1,0 +1,43 @@
+extends base.pug
+
+block scripts
+   script(src='/static/index.js')
+
+block style
+       style
+          include ../static/style.css
+       
+block content 
+      section#introsection 
+            div Welcome to Dron's Dance Academy 
+            div.small  Eat Sleep Dance Repeat                                                                                  
+      section#missonsection 
+            h2 Our Misson
+            div.card
+                  h3     Dance Perfection   
+                  div.card-box
+                        div.card-img
+                              img(src=("/static/img/mainlogo2.png"))
+                        div.card-content   
+                              p  This is the best Dance Academy of the universe
+            div.card
+                  h3     Dance the way you like      
+                  div.card-box
+                        div.card-img
+                              img(src=("/static/img/mainlogo3.png"))
+                        div.card-content   
+                              p  This is the best Dance Academy of the universe
+            div.card
+                  h3     Expert Teaching     
+                  div.card-box
+                        div.card-img
+                              img(src=("/static/img/mainlogo4.png"))
+                        div.card-content   
+                              p  This is the best Dance Academy of the universe
+      section#soponsorssection 
+            h2 Our Sponsors 
+            div#sponsor
+                   img(src="/static/img/mainlogo5.png" ,alt="sponser img" ,Class="spimg")
+                   img(src="/static/img/mainlogo6.png" ,alt="sponser img" ,Class="spimg")
+                   img(src="/static/img/mainlogo8.png" ,alt="sponser img" ,Class="spimg")
+                   img(src="/static/img/logo10.png" ,alt="sponser img" ,Class="spimg")

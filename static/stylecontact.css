@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Reggae+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+h1 {
+    text-align: center;
+    margin: 12px 0;
+
+}
+.container{
+    min-height: 66vh;
+    margin: 43px 0;
+
+}
+.container h1{
+font-family: 'Reggae One',
+cursive;
+font-size: 34px;
+}
+.myform {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.myinput {
+    font-size: 16px;
+    margin: 8px;
+    padding: 9px;
+    border: 2px solid rgb(224, 178, 178);
+    width: 40%;
+    border-radius: 12px;
+    outline: none;
+}
+.btn{
+    padding: 8px 16px ;
+    font-size: 18px;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: white;
+    background:rgb(250, 59, 59) ;
+    cursor:pointer;
+    margin: 23px;
+    outline: none;
+}
